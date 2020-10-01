@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Okay, don't freak out.</title>
+<!-- font imports -->
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        background: #313131;
+        color: #f0f0f0;
+        min-width: 700px;
+    }
+
+    #title {
+        padding: 30px;
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+        font-size: 60px;
+        font-style: italic;
+    }
+
+    .block {
+        margin: auto;
+        margin-bottom: 60px;
+        width: 1132px;
+    }
+
+    p {
+        font-family: 'La Belle Aurore', cursive;
+        font-size: 30px;
+        margin-left: 75px;
+        width: 1048px;
+    }
+
+    #signature {
+        margin-top: -40px;
+        width: 70%;
+        text-align: end;
+    }
+
+    .links {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header {
+        margin-left: 10px;
+        margin-bottom: 50px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .img {
+        padding: 75px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    img {
+        height: 100px;
+    }
+
+    #soundcloud:hover {
+        -webkit-filter:
+            drop-shadow(3px 0 7px #ff770080)
+            drop-shadow(0px 3px 7px #ff770080)
+            drop-shadow(-3px 0px 7px #ff770080)
+            drop-shadow(0px -3px 7px #ff770080);
+        filter:
+            drop-shadow(3px 0 7px #ff770080)
+            drop-shadow(0px 3px 7px #ff770080)
+            drop-shadow(-3px 0px 7px #ff770080)
+            drop-shadow(0px -3px 7px #ff770080);
+    }
+
+    /* #spotify:hover {
+        -webkit-filter:
+            drop-shadow(3px 0 7px #1ED76180)
+            drop-shadow(0px 3px 7px #1ED76180)
+            drop-shadow(-3px 0px 7px #1ED76180)
+            drop-shadow(0px -3px 7px #1ED76180);
+        filter:
+            drop-shadow(3px 0 7px #1ED76180)
+            drop-shadow(0px 3px 7px #1ED76180)
+            drop-shadow(-3px 0px 7px #1ED76180)
+            drop-shadow(0px -3px 7px #1ED76180);
+    } */
+
+    /* uncomment these next 2 when Spotify link is up. */
+    #soundcloud {
+        height: 130px;
+    }
+
+    #spotify {
+        -webkit-filter: brightness(0.25);
+        filter: brightness(0.25);
+    }
+
+    @media screen and (max-width: 1200px) {
+        p {
+            width: 550px;
+        }
+        .links {
+            margin-top: 0px;
+        }
+        .block {
+            width: 640px;
+        }
+        .img {
+            padding: 30px;
+        }
+        #signature {
+            margin-top: auto;
+        }
+</style>
+</head>
+
+<body>
+<h1 id="title">o' kawaii koto.</h1>
+<div class="block">
+    <h1 class="header">Disclaimer from yours truly,</h1>
+    <div>
+        <p>All tracks are mostly fictional and does not actually represent the artist's viewpoint.<br>
+        Yes, the sentiments in these tracks are partially genuine, but excessively exaggerated.<br>
+        Please treat this collection as you would treat a work of satire, but at the same time,
+        do try to vibe, analyze, and sympathize.</p>
+        <p id="signature">-kwkt</p>
+    </div>
+</div>
+<div class="block">
+    <h1 class="header">That being said, enjoy.</h1>
+    <div class="links">
+        <div class="img">
+            <a href="https://soundcloud.com/kwkt">
+                <img id="soundcloud" src="soundcloud.png"/>
+            </a>
+        </div>
+        <div class="img">
+            <img id="spotify" src="spotify.png"/>
+            <br>Spotify profile not available yet.
+        </div>
+    </div>
+</div>
+</body>
+</html>
