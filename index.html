@@ -10,9 +10,12 @@
 
 <style>
     body {
-        background: #313131;
+        background: url("unsplash.jpg");
+        background-size: cover;
         color: #f0f0f0;
+        text-shadow: 2px 2px #dfd0df50;
         min-width: 700px;
+        margin: 0;
     }
 
     #title {
@@ -63,6 +66,16 @@
 
     img {
         height: 100px;
+    }
+
+    .footer {
+        background-color:#00000099;
+        padding: 5px;
+        width: 100%;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        text-shadow: none;
     }
 
     #soundcloud:hover {
@@ -143,7 +156,7 @@
         </div>
     </div>
 </div>
-<div style="width: 100%; text-align: center; font-family: 'Montserrat', sans-serif; font-size:14px">
+<div class="footer">
     Drop me a line at <a href="mailto:hi@kwkt.ml" style="color:#ec625f; text-decoration:none;">hi@kwkt.ml</a> for any inquiry.
 </div>
 </body>
